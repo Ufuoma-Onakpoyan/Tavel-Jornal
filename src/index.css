@@ -1,0 +1,77 @@
+body{
+    font-family: "Poppins" , sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+    font: 16px;
+    color: white;
+    width: 600px;
+    height: 55px;
+    margin-bottom: 0;
+}
+.country{
+    letter-spacing: 0.25em;
+    font-weight: 400;
+    margin-right: 3px;
+    margin-left: 3px;
+    line-height: 12px;
+    font-size: 13px;
+}
+.googleMaps-Link{
+    color: #918E9B;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Inter";
+    margin-left: 3px;
+}
+
+.Card-Main{
+    width: 600px;
+    background-color: white;
+    display: flex;
+
+}
+.Card-Main > img{
+    border-radius: 5px;
+    float: left;
+    margin-right: 19px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#place{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-top: -15px;
+}
+.myP {
+    font-family: "Inter";
+    font-size: 10px;
+    max-width: 500px;
+    max-height: 60px;
+    line-height: 15px;
+}
+
+.TextContent{
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.myH1{
+    margin-top: -10px;
+    font-weight: 700;
+    padding-bottom: 1px;
+
+}
+.myH5{
+    margin-bottom: 0;
+    margin-top: -4px;
+    font-size: 10px;
+}
